@@ -1,4 +1,3 @@
-// Node Dependency
 var mysql = require('mysql');
 var connection;
 

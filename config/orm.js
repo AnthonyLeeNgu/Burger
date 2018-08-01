@@ -1,4 +1,3 @@
-// Import Node Dependencies
 var connection = require('./connection.js');
 
 
