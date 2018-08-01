@@ -4,26 +4,27 @@
   "description": "Eat the Burger! A MySQL, Node, Express, Handlebars restaurant app that lets users input the names of burgers they'd like to eat.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "engines": {
     "node": "4.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomtom28/burger.git"
+    "url": "git+https://github.com/AnthonyLeeNgu/Burger.git"
   },
-  "author": "tomtom28",
+  "author": "AnthonyLeeNgu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/burger/issues"
+    "url": "https://github.com/AnthonyLeeNgu/Burger/issues"
   },
-  "homepage": "https://github.com/tomtom28/burger#readme",
+  "homepage": "https://github.com/AnthonyLeeNgu/Burger/#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.6",
-    "mysql": "^2.12.0"
+    "method-override": "^2.3.10",
+    "mysql": "^2.16.0"
   }
 }

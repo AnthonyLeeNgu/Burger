@@ -1,10 +1,3 @@
-// @author: Thomas Thompson
-// @github: tomtom28
-// @comment: Homework 14 - Eat the Burger!
-
-
-
-// Node Dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')

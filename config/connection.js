@@ -1,9 +1,3 @@
-// @author: Thomas Thompson
-// @github: tomtom28
-// @comment: Homework 14 - Eat the Burger!
-
-
-
 // Node Dependency
 var mysql = require('mysql');
 var connection;
@@ -16,8 +10,8 @@ else{
   connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'Iforget123', // Add your password
-    database : 'burgers_db' // Add your database
+    password : 'root', // Add your password
+    database : 'daBurgers_db' // Add your database
   });
 }
 
